@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+.main-cotainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    align-items: flex-start;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+.box1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.profile-pic {
+    border-radius: 70%;
+    width: 20%;
+    height: 20%;
+}
+
+.box2 {
+    display: flex;
+    text-align: left;
+}
+
+.box3 {
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+@media only screen and (max-widht:600px) {
+    html {
+        width: 90%
+    }
+  }
