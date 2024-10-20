@@ -8,9 +8,10 @@ body {
     align-items: flex-start;
     background-color: #2e2e2e;
     color: white;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
     border-radius: 8px;
+    width: 70%;
 
 }
 .box1 {
@@ -18,19 +19,26 @@ body {
     flex: 1;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    width: 100px;
     padding: 10px;
+    font-size:25px;
+}
+.box1 img {
+    width: 200px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5%;
+    flex-direction: column;
+    
 }
 
 .profile-pic {
     border-radius: 70%;
     width: 20%;
     height: 20%;
-}
-
-.box2 {
-    display: flex;
-    text-align: left;
 }
 
 .box3 {
